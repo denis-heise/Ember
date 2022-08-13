@@ -7,7 +7,6 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('header');
   this.route('meetings');
   this.route('books');
   this.route('speakers');
