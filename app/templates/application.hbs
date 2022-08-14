@@ -10,16 +10,24 @@
 		<div class="collapse navbar-collapse" id="navbarContent">
 			<ul class="nav navbar-nav navigation-main">
 				<li class="nav-item active">
-					<a class="nav-link" href="./">Рабочий стол <span class="sr-only">(текущий)</span></a>
+                    {{#link-to "index"}}
+				    	<a class="nav-link" href="">Рабочий стол</a>
+                    {{/link-to}}
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="meetings">Встречи клуба</a>
+                    {{#link-to "meetings"}}
+				    	<a class="nav-link" href="">Встречи клуба</a>
+                    {{/link-to}}
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="books">Книги</a>
+                    {{#link-to "books"}}
+                        <a class="nav-link" href="">Книги</a>
+                    {{/link-to}}
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="speakers">Спикеры</a>
+                    {{#link-to "speakers"}}
+				    	<a class="nav-link" href="">Спикеры</a>
+                    {{/link-to}}
 				</li>
 				<li class="nav-item">
 					<a class="nav-link text-success" href="#">Оставить заявку</a>
