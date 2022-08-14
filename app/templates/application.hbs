@@ -1,7 +1,7 @@
 <body class="home-page">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
-			<img src="images/logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+			<img src="{{url "rootURL"}}images/logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     		Книжный клуб
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Открыть меню">
@@ -10,23 +10,23 @@
 		<div class="collapse navbar-collapse" id="navbarContent">
 			<ul class="nav navbar-nav navigation-main">
 				<li class="nav-item active">
-                    {{#link-to "index"}}
-				    	<a class="nav-link" href="">Рабочий стол</a>
+                    {{#link-to "index" class="nav-link"}}
+                        Рабочий стол
                     {{/link-to}}
 				</li>
 				<li class="nav-item">
-                    {{#link-to "meetings"}}
-				    	<a class="nav-link" href="">Встречи клуба</a>
+                    {{#link-to "meetings" class="nav-link"}}
+                        Встречи клуба
                     {{/link-to}}
 				</li>
 				<li class="nav-item">
-                    {{#link-to "books"}}
-                        <a class="nav-link" href="">Книги</a>
+                    {{#link-to "books" class="nav-link"}}
+                        Книги
                     {{/link-to}}
 				</li>
 				<li class="nav-item">
-                    {{#link-to "speakers"}}
-				    	<a class="nav-link" href="">Спикеры</a>
+                    {{#link-to "speakers" class="nav-link"}}
+				    	Спикеры
                     {{/link-to}}
 				</li>
 				<li class="nav-item">

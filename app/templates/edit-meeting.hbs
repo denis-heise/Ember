@@ -37,7 +37,7 @@
                         <div class="row h-100 justify-content-between">
                             <div class="col-md-2 text-center d-inline-block align-middle">
                                 <h5 class="py-2">Спикер</h5>
-                                <img src="images/speaker.jpg" class="rounded w-100" alt="Спикер">
+                                <img src="{{url "rootURL"}}images/speaker.jpg" class="rounded w-100" alt="Спикер">
                                 <p>Фамилия Имя</p>
                             </div>
                             <div class="col-md-2 text-center d-inline-block align-middle">
@@ -79,7 +79,7 @@
                                 </a>
                             </div>
                             <div class="row align-items-center col-md-2">
-                                <button type="button" class="btn pl-2 pr-2 col-md-6 text-right" onclick="javascript:location='edit-meeting/edit-report'">
+                                <button type="button" class="btn pl-2 pr-2 col-md-6 text-right"  onclick={{action "editReport"}}>
                                     <svg viewBox="0 0 16 16" class="bi bi-pencil card-button" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
                                     </svg>
@@ -97,7 +97,7 @@
                         <div class="row h-100 justify-content-between">
                             <div class="col-md-2 text-center">
                                 <h5 class="py-2">Спикер</h5>
-                                <img src="images/speaker.jpg" class="rounded w-100" alt="Спикер">
+                                <img src="{{url "rootURL"}}images/speaker.jpg" class="rounded w-100" alt="Спикер">
                                 <p>Фамилия Имя</p>
                             </div>
                             <div class="col-md-2 text-center">
@@ -139,7 +139,7 @@
                                 </a>
                             </div>
                             <div class="col-md-2 row align-items-center">
-                                <button type="button" class="btn pl-2 pr-2 col-md-6 text-right" onclick="javascript:location='edit-meeting/edit-report'">
+                                <button type="button" class="btn pl-2 pr-2 col-md-6 text-right" onclick={{action "editReport"}}>
                                     <svg viewBox="0 0 16 16" class="bi bi-pencil card-button" fill  ="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5L13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175l-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
                                     </svg>
