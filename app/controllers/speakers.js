@@ -1,9 +1,10 @@
 import Controller from '@ember/controller';
+import config from 'test-book/config/environment';
 
 export default Controller.extend({
     actions: {
         editSpeaker(){
-            location='speakers/edit-speaker';
+            location=config.rootURL +'speakers/edit-speaker';
         }
     }
 });
