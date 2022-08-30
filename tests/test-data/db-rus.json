@@ -1,0 +1,132 @@
+
+{
+    "books": [
+      {
+        "id": "1",
+        "cover":"images/DB-book-cover/book-cover-1.jpg",
+        "title": "Название первой книги",
+        "author": "Иванов Иван Иванович",
+        "number_pages": "232",
+        "tags": "#11111",
+        "rating": "74%",
+        "description": "Описание первой книги"
+      },
+      {
+        "id": "2",
+        "cover":"images/DB-book-cover/book-cover-2.jpg",
+        "title": "Название второй книги",
+        "author": "Иванов Пётр Иванович",
+        "number_pages": "455",
+        "tags": "#22222",
+        "rating": "42%",
+        "description": "Описание второй книги"
+      },
+      {
+        "id": "3",
+        "cover":"images/DB-book-cover/book-cover-3.jpg",
+        "title": "Название третьей книги",
+        "author": "Иванов Николай Иванович",
+        "number_pages": "767",
+        "tags": "#33333",
+        "rating": "65%",
+        "description": "Описание третьей книги"
+      },
+      {
+        "id": "4",
+        "cover":"images/DB-book-cover/book-cover-4.jpg",
+        "title": "Название четвёртой книги",
+        "author": "Иванов Максим Иванович",
+        "number_pages": "123",
+        "tags": "#44444",
+        "rating": "90%",
+        "description": "Описание четвёртой книги"
+      },
+      {
+        "id": "5",
+        "cover":"images/DB-book-cover/book-cover-5.jpg",
+        "title": "Название пятой книги",
+        "author": "Иванов Григорий Иванович",
+        "number_pages": "232",
+        "tags": "#55555",
+        "rating": "77%",
+        "description": "Описание пятой книги"
+      },
+      {
+        "id": "6",
+        "cover":"images/DB-book-cover/book-cover-6.jpg",
+        "title": "Название шестой книги",
+        "author": "Иванов Виталий Иванович",
+        "number_pages": "232",
+        "tags": "#66666",
+        "rating": "33%",
+        "description": "Описание шестой книги"
+      },
+      {
+        "id": "7",
+        "cover":"images/DB-book-cover/book-cover-7.jpg",
+        "title": "Название седьмой книги",
+        "author": "Иванов Владислав Иванович",
+        "number_pages": "232",
+        "tags": "#77777",
+        "rating": "44%",
+        "description": "Описание седьмой книги"
+      },
+      {
+        "id": "8",
+        "cover":"images/DB-book-cover/book-cover-8.jpg",
+        "title": "Название восьмой книги",
+        "author": "Иванов Владимир Иванович",
+        "number_pages": "232",
+        "tags": "#88888",
+        "rating": "88%",
+        "description": "Описание восьмой книги"
+      },
+      {
+        "id": "9",
+        "cover":"images/DB-book-cover/book-cover-9.jpg",
+        "title": "Название девятой книги",
+        "author": "Иванов Фёдор Иванович",
+        "number_pages": "232",
+        "tags": "#99999",
+        "rating": "12%",
+        "description": "Описание девятой книги"
+      },
+      {
+        "id": "10",
+        "cover":"images/DB-book-cover/book-cover-10.jpg",
+        "title": "Название десятой книги",
+        "author": "Иванов Александр Иванович",
+        "number_pages": "232",
+        "tags": "#00000",
+        "rating": "96%",
+        "description": "Описание десятой книги"
+      }   
+    ],
+    "speakers": [
+      {
+        "id": "1",
+        "full_name": "Иванов Иван Иванович",
+        "photo": "images/DB-speakers/speaker-1.jpg"
+      },
+      {
+        "id": "2",
+        "full_name": "Иванов Пётр Иванович",
+        "photo": "images/DB-speakers/speaker-2.jpg"
+      },
+      {
+        "id": "3",
+        "full_name": "Иванов Григорий Иванович",
+        "photo": "images/DB-speakers/speaker-3.jpg"
+      },
+      {
+        "id": "4",
+        "full_name": "Иванов Владимир Иванович",
+        "photo": "images/DB-speakers/speaker-4.jpg"
+      },
+      {
+        "id": "5",
+        "full_name": "Иванов Максим Иванович",
+        "photo": "images/DB-speakers/speaker-5.jpg"
+      }
+    ]
+  }

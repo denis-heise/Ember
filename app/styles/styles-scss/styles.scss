@@ -54,6 +54,15 @@ html {
     padding-bottom: 60px;
   }
   
+  .wrapper-image{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      margin: auto;
+    }
+  }
+
   a.tag-link {
     color: #007bff;
   }
@@ -301,6 +310,17 @@ html {
     margin: .25rem .125rem;
   }
   
+  .additional-routes-wrapper{
+    display: flex;
+    height: 100%;
+  }
+  .additional-routes {
+    margin: auto;
+  }
+  .error-image{
+    width: 50%;
+  }
+
   /* Media queries
   -------------------------------------------------- */
   

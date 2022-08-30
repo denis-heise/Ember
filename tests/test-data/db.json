@@ -1,0 +1,131 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "cover":"images/DB-book-cover/book-cover-1.jpg",
+      "title": "Book_1",
+      "author": "Williams J.C.",
+      "number_pages": "232",
+      "tags": "11111",
+      "rating": "74%",
+      "description": "Описание первой книги"
+    },
+    {
+      "id": "2",
+      "cover":"images/DB-book-cover/book-cover-2.jpg",
+      "title": "Book_2",
+      "author": "Peters B.D.",
+      "number_pages": "455",
+      "tags": "22222",
+      "rating": "42%",
+      "description": "Описание второй книги"
+    },
+    {
+      "id": "3",
+      "cover":"images/DB-book-cover/book-cover-3.jpg",
+      "title": "Book_3",
+      "author": "Gibson J.T.",
+      "number_pages": "767",
+      "tags": "33333",
+      "rating": "65%",
+      "description": "Описание третьей книги"
+    },
+    {
+      "id": "4",
+      "cover":"images/DB-book-cover/book-cover-4.jpg",
+      "title": "Book_4",
+      "author": "Martin A.A.",
+      "number_pages": "123",
+      "tags": "44444",
+      "rating": "90%",
+      "description": "Описание четвёртой книги"
+    },
+    {
+      "id": "5",
+      "cover":"images/DB-book-cover/book-cover-5.jpg",
+      "title": "Book_5",
+      "author": "Jordan L.J.",
+      "number_pages": "232",
+      "tags": "55555",
+      "rating": "77%",
+      "description": "Описание пятой книги"
+    },
+    {
+      "id": "6",
+      "cover":"images/DB-book-cover/book-cover-6.jpg",
+      "title": "Book_6",
+      "author": "Jackson E.Y.",
+      "number_pages": "232",
+      "tags": "66666",
+      "rating": "33%",
+      "description": "Описание шестой книги"
+    },
+    {
+      "id": "7",
+      "cover":"images/DB-book-cover/book-cover-7.jpg",
+      "title": "Book_7",
+      "author": "Grant S.I.",
+      "number_pages": "232",
+      "tags": "77777",
+      "rating": "44%",
+      "description": "Описание седьмой книги"
+    },
+    {
+      "id": "8",
+      "cover":"images/DB-book-cover/book-cover-8.jpg",
+      "title": "Book_8",
+      "author": "Davis A.V.",
+      "number_pages": "232",
+      "tags": "88888",
+      "rating": "88%",
+      "description": "Описание восьмой книги"
+    },
+    {
+      "id": "9",
+      "cover":"images/DB-book-cover/book-cover-9.jpg",
+      "title": "Book_9",
+      "author": "Collins W.R.",
+      "number_pages": "232",
+      "tags": "99999",
+      "rating": "12%",
+      "description": "Описание девятой книги"
+    },
+    {
+      "id": "10",
+      "cover":"images/DB-book-cover/book-cover-10.jpg",
+      "title": "Book_10",
+      "author": "Bradley W.R.",
+      "number_pages": "232",
+      "tags": "00000",
+      "rating": "96%",
+      "description": "Описание десятой книги"
+    }   
+  ],
+  "speakers": [
+    {
+      "id": "1",
+      "full_name": "Иванов Иван Иванович",
+      "photo": "images/DB-speakers/speaker-1.jpg"
+    },
+    {
+      "id": "2",
+      "full_name": "Иванов Пётр Иванович",
+      "photo": "images/DB-speakers/speaker-2.jpg"
+    },
+    {
+      "id": "3",
+      "full_name": "Иванов Григорий Иванович",
+      "photo": "images/DB-speakers/speaker-3.jpg"
+    },
+    {
+      "id": "4",
+      "full_name": "Иванов Владимир Иванович",
+      "photo": "images/DB-speakers/speaker-4.jpg"
+    },
+    {
+      "id": "5",
+      "full_name": "Иванов Максим Иванович",
+      "photo": "images/DB-speakers/speaker-5.jpg"
+    }
+  ]
+}
